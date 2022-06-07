@@ -1,11 +1,3 @@
-friendly-parakeet/Develop/style.css
-@Xandromus
-Xandromus Add starter code
-Latest commit 8d3af84 on Feb 13, 2020
- History
- 1 contributor
-137 lines (120 sloc)  2.04 KB
-   
 *,
 *::before,
 *::after {
@@ -19,11 +11,22 @@ body,
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  
 }
 
+
+.passwordFont{
+  font-family: 'Rubik Glitch',
+  cursive;
+  font-size: 75px;
+}
+
+.centered {
+  text-align: center;
+}
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
@@ -46,14 +49,14 @@ header {
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
-  padding: 30px 40px;
+  /* padding: 30px 40px; */
 }
 
 .card-header::after {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  /* background: #e7e9eb; */
   height: 2px;
 }
 
@@ -81,10 +84,10 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  /* background-color: hsl(360, 91%, 36%); */
+  background-color: black;
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-    0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
   color: hsl(0, 0%, 100%);
   display: inline-block;
   font-size: 22px;
@@ -142,15 +145,27 @@ button[disabled] {
     font-size: 0.8rem;
   }
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
+#backgroundColor {
+  background-image: url("/img/Screenshot\ \(90\).png");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cardbg{
+background: #BBD2C5;
+/* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #536976, #BBD2C5);
+/* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #536976, #BBD2C5);
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
+
+
+}
